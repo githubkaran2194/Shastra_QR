@@ -107,7 +107,7 @@ const ProductForm = () => {
           variant="contained"
           fullWidth
           type="submit"
-          className={`!bg-gradient-to-r from-orange-900 to-orange-950
+          className={`!bg-gradient-to-r !from-orange-900 !to-orange-950
             !text-white !tracking-wider !font-bold !py-2 !mt-2 !rounded-md !shadow-md 
             ${loading ? "opacity-50 !cursor-not-allowed" : ""}`}
           disabled={loading}

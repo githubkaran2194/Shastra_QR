@@ -35,7 +35,7 @@ const ShastraForm = ({ handleSearch, setSearchQuery, searchQuery, error }) => {
         />
         <Button
           type="submit"
-          className="bg-btn !text-white !w-full !py-2 !font-bold !tracking-widest"
+          className="!bg-orange-500 !text-white !w-full !py-2 !font-bold !tracking-widest"
         >
           Submit
         </Button>

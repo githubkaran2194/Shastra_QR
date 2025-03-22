@@ -13,20 +13,11 @@
     font-weight: 600 !important;
 }
 
-.bg-btn {
-    background: linear-gradient(to right, #f97316, #ea580c);
-    transition: background 0.3s ease-in-out;
-}
-
-.bg-btn:hover {
-    background: linear-gradient(to right, #ea580c, #f97316);
-}
-
 
 /* Google Translate Dropdown Styling */
 #google_translate_element select {
-    background-color: #f97316; /* Orange background */
-    color: white; /* White text */
+    background-color: #f97316 !important; 
+    color: white; 
     border: none;
     padding: 10px;
     border-radius: 5px;
