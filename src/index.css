@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+
+
+/* Google Translate Dropdown Styling */
+#google_translate_element select {
+    background-color: #f97316 !important; 
+    color: white; 
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Dropdown Hover Effect */
+  #google_translate_element select:hover {
+    background-color: #ea580c; /* Darker Orange */
+  }
+  
+  /* Hide Google Translate Logo & Branding */
+  .goog-logo-link,
+  .goog-te-gadget span,
+  .goog-te-gadget-simple > div {
+    display: none !important;
+  }
+  
+  /* Align Translate Dropdown */
+  #google_translate_element {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #google_translate_element select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
