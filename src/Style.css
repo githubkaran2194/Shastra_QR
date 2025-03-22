@@ -1,0 +1,63 @@
+.css-6h9cc6-MuiInputBase-root-MuiInput-root{
+    font-size: 2rem !important;
+    padding-top: 10px;
+}
+.css-6h9cc6-MuiInputBase-root-MuiInput-root:focus{
+    color: red !important;
+}
+.css-1yrc8ca-MuiInputBase-input-MuiInput-input:focus {
+   color: orange;
+}
+.css-1ew92b2-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+}
+
+.bg-btn {
+    background: linear-gradient(to right, #f97316, #ea580c);
+    transition: background 0.3s ease-in-out;
+}
+
+.bg-btn:hover {
+    background: linear-gradient(to right, #ea580c, #f97316);
+}
+
+
+/* Google Translate Dropdown Styling */
+#google_translate_element select {
+    background-color: #f97316; /* Orange background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Dropdown Hover Effect */
+  #google_translate_element select:hover {
+    background-color: #ea580c; /* Darker Orange */
+  }
+  
+  /* Hide Google Translate Logo & Branding */
+  .goog-logo-link,
+  .goog-te-gadget span,
+  .goog-te-gadget-simple > div {
+    display: none !important;
+  }
+  
+  /* Align Translate Dropdown */
+  #google_translate_element {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #google_translate_element select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  

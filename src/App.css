@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+  .bg-card{
+    background: linear-gradient(45deg, #fe624b, #b94b39, #783428, #3d1e18, #000000)
+  }
+  
+  .main-bg-color{
+    --angle: 45deg; 
+    background: linear-gradient(var(--angle), oklab(68% 0.175 0.116), oklab(73.2% 0.12 0.131), oklab(79.6% 0.061 0.147), oklab(88% -0.006 0.168), oklab(91.8% -0.033 0.177))
+  }
+  
+  .text-gradient {
+    color: orange; 
+    background-image: conic-gradient(from 315deg, #ff6c10 9%, #B8860B 95%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+   }
+  
+  .btn-all{
+    --angle: 45deg; 
+   background: linear-gradient(var(--angle), oklab(68% 0.175 0.116), oklab(73.2% 0.12 0.131), oklab(79.6% 0.061 0.147), oklab(88% -0.006 0.168), oklab(91.8% -0.033 0.177))
+  }
+  .main-text-color{
+    color: #EB5B00;
+  }
+  .fira-sans-condensed-thin {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-extralight {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-light {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-regular {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-medium {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-semibold {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-bold {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-extrabold {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-black {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    .fira-sans-condensed-thin-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 100;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-extralight-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 200;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-light-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 300;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-regular-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-medium-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 500;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-semibold-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 600;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-bold-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-extrabold-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    
+    .fira-sans-condensed-black-italic {
+      font-family: "Fira Sans Condensed", serif;
+      font-weight: 900;
+      font-style: italic;
+    }
+    
+  .bg-color{
+    background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #ff5e00 0%, #ffdf42 100%);
+  
+  }
