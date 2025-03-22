@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, TextField, Alert, CircularProgress, Card } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import axios from "axios"; // Import Axios
+import axios from "axios"; 
 
 const ProductForm = () => {
   // State variables

@@ -6,11 +6,10 @@ import "swiper/css/pagination";
 
 import img1 from "../../assets/HRC03865.JPG";
 import img2 from "../../assets/HRC03922.JPG";
-import img3 from "../../assets/HRC03915.JPG";
-import img4 from "../../assets/HRC03838.JPG";
+import img3 from "../../assets/HRC03838.JPG";
 
 const Slider = () => {
-    const images = [img1, img2, img3, img4];    
+    const images = [img1, img2, img3];    
 
   return (
     <div className="w-full max-w-3xl mx-auto">
