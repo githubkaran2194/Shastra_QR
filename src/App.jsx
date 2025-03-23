@@ -4,7 +4,7 @@ import "./App.css";
 import HomePage from "./pages/Home/HomePage";
 import Navbar from "./components/Header/Navbar";
 import Footer from "./components/Footer/Footer";
-import ShastraDetails from "../src/components/ShastraProductsDetails/ShastaDetails";
+import ShastraDetails from "./components/ShastraProductsDetails/ShastaDetails";
 const App = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="*" element={<HomePage />} />
-        <Route path="/product/:id" element={<ShastraDetails />} />
+        <Route path="/product/:id" element={<ShastraDetails/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

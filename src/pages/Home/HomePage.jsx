@@ -6,10 +6,11 @@ import SutraData from "../../data/SutraData";
 import { toast, ToastContainer } from "react-toastify";
 
 const HomePage = () => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [error, setError] = useState("");
-  const navigate = useNavigate();
+  const [searchQuery, setSearchQuery] = useState(""); // Stores user input
+  const [error, setError] = useState(""); // Stores validation errors
+  const navigate = useNavigate(); // Hook for page navigation
 
+  // Function to handle the product search
   const handleSearch = (event) => {
     event.preventDefault(); // Prevent page reload
     const query = searchQuery.trim().toUpperCase();
@@ -20,18 +21,20 @@ const HomePage = () => {
 
     if (result) {
       setError("");
-      navigate(`/product/${query}`); // Navigate to product details page
+      navigate('/product/${result}'); // Navigate to product details page
     } else {
       setError("Please enter a valid product id");
       toast.error('Please enter a valid product id')
     }
   };
 
+
+
   return (
     <div className="!mx-auto !max-w-[98%] !my-7">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
         <div className="order-2 sm:order-1">
-          <SliderComponent />
+          <SliderComponent /> {/* Display product slider */}
         </div>
         <div className="order-1 sm:order-2">
           <ShastraForm

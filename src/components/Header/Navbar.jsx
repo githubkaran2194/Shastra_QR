@@ -4,7 +4,6 @@
 
 import { Link } from "react-router-dom";
 import GoogleTranslate from "../GoogleTranslate/GoogleTranslate";
-import { Button } from "@mui/material";
 
 const Navbar = () => {
   return (

@@ -2,11 +2,12 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
 import SutraData from "../../data/SutraData";
 import { BiArrowBack } from "react-icons/bi";
+import SliderAboutProducts from "../SliderAboutProducts/SliderAboutProducts";
 
 const SutraDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-
+  
   // Check if SutraData is an array or an object
   const sutra = Array.isArray(SutraData)
     ? SutraData.find((item) => item.id === id) // Ensure `id` matches the structure
@@ -32,10 +33,8 @@ const SutraDetails = () => {
               </p>
             </div>
 
-            {/* Image Placeholder */}
-            <div className="!w-full !h-64 !bg-gray-300 !flex !justify-center !items-center !text-gray-700 !text-xl !mb-6 !rounded-lg !shadow-md">
-              [Image Coming Soon]
-            </div>
+            {/* Image Slider */}
+           <SliderAboutProducts/>
 
             {/* Description */}
             <p className="!text-lg !text-gray-600 !leading-relaxed !mb-6">
@@ -43,7 +42,7 @@ const SutraDetails = () => {
             </p>
 
             {/* Method of Use */}
-            <div className="!bg-orange-100 !p-6 !rounded-lg !shadow-md !mb-6">
+            <div className="!bg-orange-100 !p-3 !rounded-lg !shadow-md !mb-6">
               <h2 className="!text-xl !font-bold !text-orange-800 !mb-4">
                 Method of Use:
               </h2>
@@ -73,7 +72,7 @@ const SutraDetails = () => {
             </div>
 
             {/* Material and Production */}
-            <div className="!bg-gray-100 !p-4 !rounded-lg !shadow-md">
+            <div className="!bg-gray-100 !p-3 !rounded-lg !shadow-md">
               <p className="!font-semibold !text-gray-800 !text-lg">
                 <span className="!text-orange-700">Material:</span> 100% Cotton
               </p>
