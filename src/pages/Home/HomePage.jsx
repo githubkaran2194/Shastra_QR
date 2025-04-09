@@ -30,17 +30,17 @@ const HomePage = () => {
   return (
     <div className="!mx-auto !max-w-[98%] !my-7">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2">
-        <div className="order-2 sm:order-1">
-          <SliderComponent />
-        </div>
-        <div className="order-1 sm:order-2">
-          <ShastraForm
+      <div className="!order-2 sm:!order-1">
+      <SliderComponent />
+      </div>
+      <div className="!order-1 sm:!order-2">
+      <ShastraForm
             handleSearch={handleSearch}
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
             error={error}
-          />
-        </div>
+            />
+            </div>
       </div>
       <ToastContainer position="top-center" />
     </div>

@@ -1,0 +1,57 @@
+{
+    "title": "ShastraLife: Restoring India's Spiritual Heritage with Authenticity & Sustainability",
+    "description": "In the heart of Maharashtra, ShastraLife was founded by passionate young entrepreneurs to restore India's spiritual integrity. Our mission is to preserve ancient wisdom, revive lost traditions, and make authentic spiritual experiences accessible again.",
+    "mission": {
+      "heading": "Our Mission",
+      "content": "ShastraLife is more than just a brand—it’s a movement. We aim to reconnect devotees with the sacred traditions that once defined our temples, ensuring that spirituality remains authentic, sustainable, and accessible to all."
+    },
+    "image": "http://localhost:5173/src/assets/HRC03865.JPG",
+    "pillars": [
+      {
+        "icon": "FaPagelines",
+        "title": "Creating Authentic & Sustainable Spiritual Products",
+        "description": "We produce Shastra-accurate, temple-consecrated (अभिमंत्रण) and eco-friendly spiritual products, ensuring they carry true spiritual efficacy."
+      },
+      {
+        "icon": "FaHistory",
+        "title": "Reviving the Spiritual Integrity of Temples",
+        "description": "ShastraLife is on a mission to restore sacred traditions by reintroducing authentic practices and products, helping temples reclaim their role as centers of spiritual guidance."
+      },
+      {
+        "icon": "FaHandsHelping",
+        "title": "Scaling Impact Through Purpose-Driven Growth",
+        "description": "A portion of our revenue supports temple preservation efforts, artisans, and NGOs working toward cultural sustainability, ensuring ethical and responsible commercialization."
+      }
+    ],
+    "movement": {
+      "icon": "FaDelicious",
+      "heading": "ShastraLife: A Movement, Not Just a Brand",
+      "content": "We partner with like-minded social brands, NGOs, and Karma-Yogis to revive traditions, preserve heritage, and foster true spiritual connection."
+    },
+    "whyChooseUs": {
+      "heading": "Why Choose ShastraLife?",
+      "reasons": [
+        {
+          "icon": "FaCertificate",
+          "title": "Authenticity",
+          "description": "Every product is temple-consecrated (अभिमंत्रण) and created in adherence to Vedic traditions."
+        },
+        {
+          "icon": "FaLeaf",
+          "title": "Sustainability",
+          "description": "We use eco-friendly packaging and ethically sourced materials to support both the environment and artisans."
+        },
+        {
+          "icon": "FaHandsHelping",
+          "title": "Impact-Driven",
+          "description": "A portion of our revenue is reinvested into temples and NGOs, ensuring long-term cultural and spiritual preservation."
+        }
+      ]
+    },
+    "cta": {
+      "message": "Join Us in Restoring India’s Spiritual Integrity",
+      "subtext": "The wisdom of our ancestors was meant to be shared and preserved for generations. Reconnect with India's sacred traditions and make a lasting impact.",
+      "buttonText": "Get Involved"
+    }
+  }
+  

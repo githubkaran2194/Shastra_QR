@@ -2,6 +2,7 @@ import { CgYoutube } from "react-icons/cg";
 import { FaFacebookF,  FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const socialLinks = [
@@ -9,29 +10,32 @@ const socialLinks = [
   { id: 2, icon: <FaLinkedinIn size={20} />, url: "https://www.linkedin.com/company/shatralife/", color: "!text-blue-900 hover:!text-blue-500" },
   { id: 3, icon: <FaInstagram size={20} />, url: "https://www.instagram.com/_shastralife/?igsh=OTlybHpiMXJ3cnhs#", color: "!text-red-900 hover:!text-red-500" },
   { id: 4, icon: <CgYoutube size={20} />, url: "http://www.youtube.com/@ShastraLife", color: "!text-orange-900 hover:!text-orange-500" },
-  { id: 5, icon: <MdEmail size={20} />, url: "mailto:contact.shastralife@gmail.com", color: "!text-orange-900 hover:!text-orange-500" },
+ 
 ];  
 
 const Footer = () => {
   return (
     <>
-
-
       <footer className="!bg-gradient-to-r from-orange-900 to-orange-950 !py-10 !text-white">
         <div className="!container !mx-auto !px-6 !grid !grid-cols-1 md:!grid-cols-3 !gap-10 !text-center !items-center md:!items-start md:!text-start">
 
           {/* Column 1: Logo & Brand */}
           <div className="sm:!flex sm:!flex-col sm:!text-start sm:!items-start" data-aos="fade-up">
-            <img src={logo} className="!h-[80px] !mb-2 sm:!mx-0 !mx-auto" alt="Shastra Life Logo" />
+          <img src={logo} className="!h-[60px] sm:!mx-0 !mx-auto" alt="Shastra Life Logo" />
             <h2 className="!text-2xl !font-bold">Shastra Life</h2>
-            <p className="!text-lg !uppercase !font-medium">Bring blessings home</p>
+            <p className="!text-lg !uppercase !font-medium text-gray-300">📿Bring blessings home</p>
+           <div> <Link className="hover:!text-orange-500 !text-white" to='/about'>
+           <strong> About Shastra Life</strong> 
+          </Link>
+          <br/>
+           <Link className="hover:!text-orange-500 !decoration-0 !text-white" to={'/terms-conditions'}><strong>Terms & Conditions</strong></Link></div>
           </div>
 
           {/* Column 2: Contact Info */}
           <div className="!space-y-2 sm:!text-start md:text-start" data-aos="fade-up" data-aos-delay="300">
             <h3 className="!text-2xl !font-semibold ">Contact Us</h3>
-            <p><strong>Phone:</strong> <a href="tel:+919766713696" className="hover:!text-orange-500">+91 97667 13696</a></p>
-            <p><strong>Email:</strong> <a href="mailto:contact.shastralife@gmail.com" className="hover:!text-orange-500">contact.shastralife@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+919766713696" className="hover:!text-orange-500 !decoration-0 !text-white">+91 97667 13696</a></p>
+            <p><strong>Email:</strong> <a href="mailto:contact.shastralife@gmail.com" className="hover:!text-orange-500  !decoration-0 !text-white">contact.shastralife@gmail.com</a></p>
             <p><strong>Address:</strong> Hanuman Nagar, Jalgaon, Rahata - 413723</p>
             <p><strong>Hours:</strong> 10:00 AM – 5:00 PM (Mon – Fri)</p>
           </div>

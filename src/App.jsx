@@ -5,6 +5,8 @@ import HomePage from "./pages/Home/HomePage";
 import Navbar from "./components/Header/Navbar";
 import Footer from "./components/Footer/Footer";
 import ShastraDetails from "./components/ShastraProductsDetails/ShastaDetails";
+import TermsAndConditions from "./pages/TermAndConditions/TermAndConditions";
+import AboutUs from "./pages/AboutUS/AboutUS";
 const App = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="*" element={<HomePage />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/terms-conditions" element={<TermsAndConditions />} />
         <Route path="/product/:id" element={<ShastraDetails/>} />
       </Routes>
       <Footer />

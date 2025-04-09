@@ -15,8 +15,8 @@ const ShastraForm = ({ handleSearch, setSearchQuery, searchQuery, error }) => {
   return (
     <Paper className="!w-full !h-full !p-4">
       <div>
-        <h1 className="!text-5xl md:!text-7xl !font-extrabold text-center text-gradient">
-          Welcome to <strong className="main-text-color text-[53px] md:text-[68px] uppercase">Shastra Life</strong>
+        <h1 className="!text-5xl md:!text-6xl !font-extrabold text-center text-gradient">
+          Welcome to <br/> <strong className="main-text-color text-[53px] md:text-[68px]">Shastra Life</strong>
         </h1>
         <p className="!my-3 text-lg md:text-xl text-orange-400 text-center">
           Experience the Divine Energy with our Temple-Consecrated Offerings

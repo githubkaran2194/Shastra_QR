@@ -1,0 +1,58 @@
+{
+    "termsData": [
+      {
+        "title": "Payment Policy",
+        "icon": "FaMoneyCheck",
+        "iconColor": "!text-blue-600",
+        "content": {
+          "description": "All prices are listed as 'cash with order'. Accepted payment methods:",
+          "list": [
+            "Company Check",
+            "Money Order",
+            "Bank Draft",
+            "VISA / MasterCard / Discover / American Express"
+          ],
+          "note": "Not Accepted: Bank transfers or checks (cheques). Billing accounts are also not available.",
+          "noteColor": "!text-red-500"
+        }
+      },
+      {
+        "title": "Pricing & Product Specifications",
+        "icon": "FaTag",
+        "iconColor": "!text-green-600",
+        "content": {
+          "list": [
+            "Prices and product details may change without prior notice.",
+            "We are not responsible for typographical errors in pricing or product specifications.",
+            "Customers should verify prices and details before purchase.",
+            "Special prices may apply to limited stock only."
+          ]
+        }
+      },
+      {
+        "title": "Product Images",
+        "icon": "FaImage",
+        "iconColor": "!text-purple-600",
+        "content": {
+          "description": "While we strive to provide high-quality images, not all products will have multiple-angle views. Contact our support team for more details before ordering."
+        }
+      },
+      {
+        "title": "Warranty Information",
+        "icon": "FaUndo",
+        "iconColor": "!text-orange-600",
+        "content": {
+          "description": "Shastra Life does not provide any direct warranties. All warranties are handled through third-party manufacturers. We disclaim any implied warranties, including those related to merchantability or fitness for a particular purpose."
+        }
+      },
+      {
+        "title": "Returns Policy",
+        "icon": "TbTruckReturn",
+        "iconColor": "!text-red-600",
+        "content": {
+          "description": "Returns must be made within 8 days of purchase. Customers must prepay shipping charges for returned items. Contact our customer service team before initiating a return."
+        }
+      }
+    ]
+  }
+  
