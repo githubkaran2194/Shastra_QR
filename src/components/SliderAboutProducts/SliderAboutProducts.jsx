@@ -9,6 +9,7 @@ import slider2 from '../../assets/Slider2.png';
 import slider3 from '../../assets/Slider3.png';
 import slider4 from '../../assets/Slider4.png';
 import slider5 from '../../assets/Slider5.png';
+import { Dialog } from '@mui/material';
 
 const SliderAboutProducts = () => {
   const images = [slider1, slider2, slider3, slider4, slider5];
@@ -52,18 +53,25 @@ const SliderAboutProducts = () => {
       </div>
 
       {/* Zoom Modal */}
-      {isZoomed && (
+      <Dialog onClose={closeZoom} open={isZoomed}>
         <div
-          className="!fixed !inset-0 !bg-gray-200 !bg-opacity-0 !flex !justify-center !items-center !z-1000"
-          onClick={closeZoom}
+          onClick={(e) => e.stopPropagation()}
+          className="relative p-2 bg-white rounded-md"
         >
+          {/* Close Button */}
+          <button
+            onClick={closeZoom}
+            className="absolute top-2 !right-2 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-full shadow !p-1 !z-10"
+          >
+            ✕
+          </button>
           <img
             src={zoomedImg}
-            alt="Zoomed"
-            className="!max-w-full !max-h-full !object-contain !rounded-lg"
+            alt={`Zoomed Slide ${images.indexOf(zoomedImg) + 1}`}
+            className="!max-w-full !max-h-[80vh] !object-contain !rounded-lg"
           />
         </div>
-      )}
+      </Dialog>
     </>
   );
 };
