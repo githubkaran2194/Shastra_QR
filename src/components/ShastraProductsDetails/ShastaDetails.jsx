@@ -15,7 +15,7 @@ const SutraDetails = () => {
 
   return (
     <div className="!flex !justify-center !items-center !min-h-screen !bg-gradient-to-br !from-gray-100 !to-gray-300 !p-6">
-      <div className="!bg-white !shadow-xl !rounded-lg !p-8 !max-w-6xl !w-full !transform !hover:scale-105 !transition !duration-500">
+      <div className="!bg-white !shadow-xl !rounded-lg md:!p-8 !py-7 !px-3 sm:!max-w-7xl !w-full !transform !hover:scale-105 !transition !duration-500">
         {/* Header Section */}
         <div className="!items-center !justify-between !mb-6">
           <h1 className="!text-3xl !font-extrabold !text-gray-800 !text-center">
