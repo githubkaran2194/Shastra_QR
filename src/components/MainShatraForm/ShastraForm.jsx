@@ -1,3 +1,4 @@
+import '../../App.css'
 /* eslint-disable react/prop-types */
 import { Alert, Button, Paper, TextField } from "@mui/material";
 
